@@ -1,0 +1,113 @@
+/* Style untuk selector - body */
+body {
+    background-color: lightskyblue;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* Style Untuk Heading - BEGIN */
+h1 {
+    color: cyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+h2 { 
+    color:black;
+    text-align: center;
+}
+h3 { 
+    color: darkslategray;
+    text-align: center;
+}
+a:hover {
+    color: bisque;
+}
+a:visited {
+    color: blue;
+}
+.container {
+    background-color: lightskyblue;
+    margin: 10px auto;
+    width: 90%;
+}
+.logo {
+    text-align: center;
+}
+.jumbotron {
+    background-color: bisque;
+    border: solid 1px;
+    border-radius: 8px;
+}
+.jumbotron h1 {
+    margin: 20px 40px;
+    font-size: 24px;
+}
+.jumbotron h3 {
+    margin: 20px 40px;
+    font-size: 18px;
+    color: black;
+}
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333333;
+    background-color: cadetblue;
+    padding: 10px 0px;
+    font-size: 11px;
+    text-align: center;
+}
+    
+/* Menu Header - BEGIN */
+.menu-header {
+    background-color: black;
+    border-radius: 40px;
+    box-shadow: 
+    0 3px 5px -1px rgba(0, 0, 10)
+    0 5px 10px 0 rgba(0, 0, 14)
+    0 1px 14px 0 rgba(0, 0, 12)
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 1px
+}
+.menu-header a:hover{
+    color: gold
+}
+/* style Untuk Heading - End */
+
+/* Style Untuk Link - Begin */
+.cardhome{
+    background-color: tan;
+    width: 30%;
+    height: 250px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+.cardhead{
+    border-bottom: solid 1px aqua;
+    padding: 10px 0px;
+}
+.cardhead h3{
+    margin: 0px;
+    text-align: center;
+    font-family: fantasy;
+}
+.cardbody{
+    padding: 10px;
+    text-align: left;
+}
+.cardbody p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.cardflex{
+    display: flex;
+    justify-content: space-between;
+}
